@@ -1,58 +1,36 @@
-# BoreScroll: Lazy Scroller For X Twitter
+<h1 align="center">BoreScroll</h1>
 
-A minimal, performance-optimized auto-scroller for X (formerly Twitter) with ultra-smooth scrolling and customizable features.
+<p align="center"><b>A Chrome extension that auto-scrolls X (Twitter) for you, smoothly and hands-free.</b></p>
 
-## Features
+<p align="center">
+  <code>◐ Working</code> &nbsp;·&nbsp; Chrome extension &nbsp;·&nbsp; JS
+</p>
 
-- 🎯 Ultra-smooth scrolling with acceleration and deceleration
-- 🎚️ Precise speed control (0.05x to 20x)
-- 🔄 Smart auto-refresh without page reload
-- ⚡ Performance optimized with minimal CPU usage
-- 🎨 Clean, minimal black & white design
-- ⌚ Customizable refresh interval (1-60 minutes)
+> Set a speed, sit back, and let your feed scroll itself with smooth acceleration, auto-refreshing without reloading the page.
 
-## Installation
+BoreScroll is for lazy, hands-free browsing of X. It scrolls at whatever pace you pick, so you can read (or zone out) without touching the mouse.
 
-1. Download the extension
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
+## Why it exists
 
-## Usage
+Endlessly flicking the scroll wheel is a small, constant annoyance. BoreScroll automates it with genuinely smooth motion and low CPU cost, so the feed just glides.
 
-1. Visit X (twitter.com) or x.com
-2. Find the BoreScroll control panel in the bottom right
-3. Click "Start Auto-Scroll" to begin
-4. Adjust scrolling speed using the slider
-5. Toggle auto-refresh and set interval if desired
+## What you get
 
-## Controls
+| Feature | What it does |
+|---------|--------------|
+| **Ultra-smooth scroll** | Acceleration and deceleration, not a jerky crawl |
+| **Precise speed control** | Anywhere from 0.05x to 20x |
+| **Smart auto-refresh** | Pulls fresh posts without a full page reload |
+| **Performance optimized** | Minimal CPU usage |
+| **Configurable interval** | Refresh every 1 to 60 minutes |
+| **Clean minimal UI** | Black and white, no clutter |
 
-- **Start/Stop**: Toggle auto-scrolling
-- **Speed**: Adjust scrolling speed (0.05x to 20x)
-- **Refresh Time**: Set auto-refresh interval (1-60 minutes)
-- **Auto Refresh**: Toggle automatic feed refreshing
+## Install
 
-## Performance
+```
+chrome://extensions  ->  enable Developer mode  ->  Load unpacked  ->  select this folder
+```
 
-BoreScroll is designed for optimal performance:
-- Hardware-accelerated smooth scrolling
-- Minimal CPU usage
-- No impact on other browser tabs
-- Clean memory management
+## Under the hood
 
-## Privacy
-
-BoreScroll:
-- Requires no special permissions
-- Collects no user data
-- Works only on X/Twitter domains
-- Uses no external services
-
-## Support
-
-For issues or suggestions, please open an issue in the repository.
-
-## License
-
-MIT License - Feel free to modify and use as needed. 
+A lightweight Chrome extension focused on smooth scrolling performance.
